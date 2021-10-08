@@ -23,8 +23,8 @@ $ ovpm user create -u hugo -p hugo   ### 创建用户
 
 INFO[0000] user created: hugo
 
-# make user admin                   ### 设置为管理员   
-$ ovpm user update -u hugo --admin
+# make user admin
+$ ovpm user update -u hugo --admin  ### 设置为管理员   
 
 ### Web 与 VPN 连接访问 ###
 OVPM Web Interface can be reached at port :8080 by default.
