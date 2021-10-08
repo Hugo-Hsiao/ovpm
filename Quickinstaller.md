@@ -20,7 +20,9 @@ INFO[0004] ovpm server initialized
 
 # Now, lets create a new vpn user
 $ ovpm user create -u hugo -p hugo   ### 创建用户
+
 INFO[0000] user created: hugo
+
 # make user admin                    ### 设置为管理员   
 $ ovpm user update -u hugo --admin
 
